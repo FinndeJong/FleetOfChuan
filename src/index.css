@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800;900&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html,
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  line-height: 0.8;
+}
+
+h3 {
+  line-height: 1;
+}
+
+body {
+  background-image: url(/169test.png);
+  background-repeat: no-repeat;
+  background-size: auto 1080px;
+  background-position-y: -115px;
+  background-color: var(--BLUE);
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.chuanColor {
+  color: var(--YELLOW);
+  font-weight: 800;
+}
+
+.blackBold {
+  font-size: 900;
+}
+
+.yellowHover {
+  transition-duration: 250ms;
+}
+
+.yellowHover:hover {
+  color: var(--YELLOW);
+  transition: linear;
+  transition-duration: 250ms;
+}
+
+/* Colors */
+* {
+  --WHITE: rgb(255, 255, 255);
+  --BLACK: rgb(0, 0, 0);
+  --BLUE: rgb(9, 93, 116);
+  --YELLOW: rgb(217, 159, 11);
+}

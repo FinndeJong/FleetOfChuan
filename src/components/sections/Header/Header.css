@@ -1,0 +1,61 @@
+.headerContainer {
+  background-color: hsla(0, 0%, 0%, 0.35);
+  border-bottom: rgba(255, 255, 255, 0.35) solid 1px;
+  height: 106px;
+  padding: 0 150px 0 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  backdrop-filter: blur(2px);
+}
+
+.headerLogo {
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.headerNav {
+  display: flex;
+  gap: 50px;
+  font-size: 1.125em;
+}
+
+.translate {
+  width: 22px;
+  height: 22px;
+}
+
+.translate:hover {
+  cursor: pointer;
+}
+
+.translateDropdown {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 8vh;
+  margin-right: calc((150px - 50px) + 11px);
+  z-index: 999;
+  border-radius: 15px;
+  border: solid rgba(255, 255, 255, 0.35) 1px;
+  padding: 5px;
+  backdrop-filter: blur(4px);
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  font-size: 1.5em;
+  margin: 0 5px 0 5px;
+}
+
+.dropdownItem:hover {
+  cursor: pointer;
+}
+
+.dropdownItem:not(:last-child) {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.35);
+}
